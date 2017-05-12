@@ -1,9 +1,0 @@
-http://www.yootheme.com/demo/wordpress/bloc //theme wordpress
-http://tapchilaptrinh.vn/2012/07/15/javascript-va-lap-trinh-huong-doi-tuong-1/
-http://ntuts.com/jquery/co-ban/bai-4-chon-element-nang-cao //hoc jquery va bai tap
-http://www.html5canvastutorials.com/kineticjs/html5-canvas-drag-and-drop-events-tutorial/ //html5 drag and drop
-https://www.youtube.com/watch?v=YqTJB6n6kls //links hoc psd
-http://www.smashingmagazine.com/2012/10/19/design-your-own-mobile-game/ //game mobile
-http://www.smashingmagazine.com/2011/10/04/quick-look-math-animations-javascript/ //kien thuc do thi hay
-http://sinhvienit.net/forum/thiet-ke-giao-dien-responsive-trong-3-buoc.227527.html // cach lam giao dien responsive
-http://www.ibm.com/developerworks/vn/library/12/mo-jquery-mobile-api/

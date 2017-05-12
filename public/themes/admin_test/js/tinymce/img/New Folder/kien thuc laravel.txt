@@ -1,3 +1,0 @@
-﻿ông lên trang nó down code về k dùng đc mà cài cái composer
-là Blade Template vs Package laravel
-viết lệnh trong command line nó tự tạp project tự down source code về mới dùng đc

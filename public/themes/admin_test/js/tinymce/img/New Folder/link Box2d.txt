@@ -1,5 +1,0 @@
-http://www.emanueleferonato.com/2012/12/05/introducing-box2dweb-create-box2d-projects-in-html5-using-your-own-graphic-assets/
-http://www.emanueleferonato.com/2012/03/19/basic-box2d-rope-chain-2-1a-version/
-http://www.emanueleferonato.com/2009/01/05/box2d-joints-distance-joint/
-http://www.binarytides.com/revolute-joint-box2d-javascript/
-https://www.iforce2d.net/b2dtut/joints-revolute
