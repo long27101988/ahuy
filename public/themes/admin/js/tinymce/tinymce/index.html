@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test MCE</title>
+
+	<script type="text/javascript" src="tinymce.min.js"></script>
+	 <script type="text/javascript">
+        tinymce.init({
+            selector: "#mytextarea",
+             theme: "modern",
+               plugins: [
+			         "fullscreen",
+			         "advlist",
+			         "anchor",
+			         "autolink",
+			         "autoresize",
+			         // "autosave",
+			         "bbcode",
+			         "colorpicker",
+			         "contextmenu",
+			         "charmap",
+			         "hr",
+			         "image",
+			         "imagetools",
+			         "importcss",
+			         "insertdatetime",
+			         "layer",
+			         "link",
+			         "media",
+			         "lists",
+			         "preview",
+			         "pagebreak",
+
+			        
+			   ],
+			    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons | pagebreak",
+			     image_list: [ 
+			        {title: 'My image 1', value: 'http://www.tinymce.com/my1.gif'}, 
+			        {title: 'My image 2', value: 'http://www.moxiecode.com/my2.gif'} ,
+
+   				 ],
+   				 image_advtab: true,
+   				  image_class_list: [
+				        {title: 'None', value: ''},
+				        {title: 'Dog', value: 'dog'},
+				        {title: 'Cat', value: 'cat'}
+				    ],
+			   file_browser_callback   : function(field_name, url, type, win) {
+
+					var cmsURL       = 'img/' + field_name;
+
+					tinymce.activeEditor.windowManager.open({
+
+					file            : cmsURL,
+
+					title           : 'Select an Image',
+
+					width           : 600,  // Your dimensions may differ - toy around with them!
+
+					height          : 600,
+
+					resizable       : "yes",
+
+					inline          : "yes",  // This parameter only has an effect if you use the inlinepopups plugin!
+
+					close_previous  : "yes"
+					
+					}, {
+
+					window  : win,
+
+					input   : field_name
+
+					});
+
+}
+
+
+
+
+
+
+        });
+    </script>
+
+</head>
+<body>
+<h1>TinyMCE Getting Started Guide</h1>
+    <form method="post">
+        <textarea id="mytextarea"></textarea>
+    </form>
+
+</body>
+</html>

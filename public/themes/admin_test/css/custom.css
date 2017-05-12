@@ -1,0 +1,259 @@
+body, h1, h2, h3, h4, h5{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h4 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.error-message {
+  clear: both;
+  color: #a94442;
+  display: block;
+}
+.form-error {
+  border: 1px solid #a94442 !important;
+}
+.tag-header{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.tag-header-pink{
+	background-color: #E5B8B7;
+}
+/*timepicker*/
+.bootstrap-timepicker-widget.dropdown-menu.open {
+  display: inline;
+  z-index: 9999;
+}
+/*hidden .opsel */
+.opsel {
+  display: none;
+}
+
+.breadcrumb {
+  margin-top: 0;
+  padding-bottom: 3px;
+  padding-top: 2px;
+}
+.title-page {
+  color: #2679b5;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.btn, .btn-group > .btn {
+  border-width: 0px;
+  border-radius: 3px !important;
+  line-height: 22px;
+}
+.toolbar {
+  position: absolute;
+  right: 20px;
+  top: 14px;
+}
+select, input[type] {
+  border-radius: 3px !important;
+}
+.padding-left-10{
+	padding-left: 10px !important;
+}
+.padding-right-10{
+	padding-right: 10px !important;
+}
+.padding-top-10{
+	padding-top: 10px !important;
+}
+.padding-bottom-10{
+	padding-bottom: 10px !important;
+}
+.padding-left-20{
+	padding-left: 20px !important;
+}
+.padding-right-20{
+	padding-right: 20px !important;
+}
+.padding-top-20{
+	padding-top: 20px !important;
+}
+.padding-bottom-20{
+	padding-bottom: 20px !important;
+}
+.margin-left-20{
+	margin-left: 20px !important;
+}
+.margin-right-20{
+	margin-right: 20px !important;
+}
+.margin-left-30{
+	margin-left: 30px !important;
+}
+.margin-right-30{
+	margin-right: 30px !important;
+}
+.cl-modal{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.cl-modal .modal-content {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cl-modal label, .cl-modal h4{
+  font-weight: 700;
+}
+.cl-modal  .modal-header {
+  font-weight: bold;
+  min-height: 16.43px;
+  padding: 8px 15px;
+}
+.cl-modal  .modal-title{
+	font-size: 22px;
+}
+.cl-modal-md .modal-dialog{
+	max-width: 810px;
+}
+.text-left {
+  text-align: left !important;
+}
+.patient-info .form-group input[disabled],.patient-info .form-group input:disabled{
+	border: 0;
+	border-bottom: 1px solid #d5d5d5;
+	background-color: #fff !important;
+}
+textarea.form-control{
+	min-height: 70px;
+}
+.select2-choices{
+	min-width: 200px;
+}
+.table > thead > tr > th{
+    border-left-color: #ddd;
+    font-size: 14px;
+}
+.table > thead > tr {
+  /*background: #eeeeee none repeat scroll 0 0;*/
+  color: #707070;
+  font-weight: 400;
+}
+.table.table-bordered > thead > tr > th:last-child {
+  border-right-color: #ddd;
+}
+.table-style1.table > thead > tr > th{
+	font-size: 13px;
+}
+.table > thead > tr > th{
+	border-bottom: 0;
+}
+.dataTable > thead > tr > th.sorting_desc, .dataTable > thead > tr > th.sorting_asc{
+	background: #eeeeee none repeat scroll 0 0;
+}
+.widget1 {
+  margin-bottom: 20px;
+  max-height: 261px;
+  overflow: auto;
+}
+.widget1  .table{
+	margin-bottom: 0;
+}
+.btn-mini{
+	line-height: 18px !important;
+}
+.table-style1 tbody tr  td:first-child{
+	font-weight: bold
+}
+.min-w60 {
+  min-width: 61px;
+}
+.table-widget{
+	
+}
+.pointer{
+	cursor: pointer;
+}
+.datepicker.dropdown-menu{
+	z-index: 9999 !important;
+}
+.page-content{
+	overflow: auto;
+}
+.btn.btn-white {
+  border-width: 1px;
+}
+.page-header.schedule {
+  text-align: center;
+}
+.schedule-input{
+	display: inline-block;
+    margin: 0 auto;
+}
+.schedule-input > input {
+  padding: 5px 5px 8px;
+}
+.bg_light_gray{
+	background-color: #ececec;
+}
+.pannel-payment {
+  min-height: 262px;
+  position: relative;
+}
+.pannel-payment .form-horizontal {
+  padding-top: 91px;
+}
+.pannel-payment .form-horizontal .form-group{
+	margin: 0;
+}
+.pannel-payment  label{
+  color: #f2ae43;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.pannel-payment .form-control {
+  font-size: 25px;
+  height: 60px;
+  padding-top: 6px;
+}
+.message-footer .pagination > li > a, .message-footer .pagination > li > span {
+  background-color: #fff;
+  border-color: #91bad6;
+  color: #2283c5;
+  text-decoration: none;
+}
+.message-footer .pagination > li.active > span{
+	 background-color: #337ab7;
+	 color: #fff;
+}
+.pagination{
+  margin: 0;
+}
+.max-400{
+  max-width: 400px;
+}
+.form-control{
+  height: auto; 
+}
+.btn-addmore,  .btn-minus, .btn-addmore-image{
+  height: 38px;
+  margin-left: 5px !important;
+}
+.original {
+  max-width: 120px;
+}
+div.mce-edit-area iframe{
+  height: 400px !important;
+}
+
+@media only screen and (max-width: 991px){
+	.pannel-payment .form-horizontal {
+	  padding-top: 52px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.schedule-input > input {
+	  width: 100px;
+	}
+}

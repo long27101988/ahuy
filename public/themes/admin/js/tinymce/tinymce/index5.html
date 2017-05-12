@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test MCE</title>
+
+	<script type="text/javascript" src="tinymce.min.js"></script>
+<script type="text/javascript">
+// tinymce.PluginManager.load('moxiemanager', '/plugins/filemanager/plugin.min.js');
+
+tinymce.init({
+    selector: "#mytextarea",
+     plugins: "moxiemanager link image",
+    toolbar: "insertfile link image",
+    menubar: false
+});
+</script>
+
+</head>
+<body>
+<h1>TinyMCE Getting Started Guide</h1>
+    <form method="post">
+        <textarea id="mytextarea"></textarea>
+    </form>
+
+</body>
+</html>

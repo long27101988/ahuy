@@ -1,0 +1,53 @@
+/*===================MEDIA=================*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	.relate-project .relate-p-i {
+		height: 200px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	  
+	.box-yellow {
+	  	padding: 15px;
+	}
+  	.relate-project .relate-p-i {
+		height: auto !important;
+	}
+	.nav > li {
+	  border-bottom: 1px solid #ddd;
+	  display: block;
+	  position: relative;
+	  text-align: center;
+	}
+	.nav > li:last-child{
+		 border-bottom: 0;
+	}
+	.header .main-menu li a {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.item-relate-news {
+		border-bottom: 1px solid #97d1f4;
+	}
+	.relate-news-hr {
+		border-bottom: 0;
+	}
+	.relate-news-img {
+	  height: auto;
+	  max-height: 150px;
+	  width: 100%;
+	}
+	.product-desc .product-info {
+	  overflow: hidden;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  padding-top: 10px;
+	}
+	.product-desc .product-info ul li span {
+	  font-size: 14px;
+	  width: 150px;
+	}
+	.kt-detail {
+	  width: calc(100% - 155px) !important;
+	}
+}

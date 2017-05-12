@@ -1,0 +1,23 @@
+#title-detail-page {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 15px;
+  color: #212121;
+  color: #444444;
+  margin-bottom: 20px;
+  color: #42aceb;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+
+#wrap-content {
+  
+}
+
+.company-name {
+  color: #2da3e9;
+  font-family: 'open sans';
+  font-size: 18px;
+  font-weight: 600;
+}
